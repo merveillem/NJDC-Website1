@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #f3f3f3;
+    position: absolute;
+    font-weight: bold;
+    z-index: 100;
+    box-sizing: border-box;
+}
+nav .logo{
+    margin-top: -280px;
+    float: left;
+    transform: translateX(50px);
+    z-index: 10;
+}
+nav ul{
+    float: left;
+    transform: translateX(100px);
+    z-index: 10px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 2px 14px;
+}
+nav ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 26px 14px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color:  #283747;
+    padding: 10px;
+    transform: translateX(-10px);
+}
+nav ul li:hover ul{
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 2px;
+}
+nav ul li ul li {
+    width: 180px;
+}
+nav ul li ul li a {
+    padding: 8px 14px;
+    color: 
+}
+nav ul li ul li a:hover{
+    background-color: #f3f3f3;
+    transition: .4s;
+}
+
+.content{
+    width: 100%;
+    height: 550px;
+    background: #f3f3f3;
+}
+
+.about{
+    width: 100%;
+    height: 550px;
+    background: url(/image/nj.png);
+    background-size: cover;
+}
+.abouth{
+    transform: translateY(260px);
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+.content2{
+    width: 100%;
+    height: 760px;
+    background: #f3f3f3;
+}
+.who{
+    letter-spacing: 4px;
+    transform: translateY(70px);
+    padding-left: 280px;
+    font-size: 25px;
+}
+.who1{
+    transform: translateY(100px);
+    padding-left: 280px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: lightslategray;
+    line-height: 20px;
+}
+.camp{
+    letter-spacing: 4px;
+    transform: translateY(200px);
+    padding-left: 280px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.camp2{
+    transform: translateY(240px);
+    padding-left: 280px;
+    font-size: 15px;
+    color: lightslategray;
+    font-weight: lighter;
+    line-height: 20px;
+}
+.meeting{
+    transform: translateY(340px);
+    padding-left: 280px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.meeting2{
+    transform: translateY(400px);
+    padding-left: 280px;
+    font-size: 15px;
+    color: lightslategray;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+/*-----footer-----*/
+.footer{
+    width: 100%;
+    height: 150px;
+    background:#272626;
+    overflow: hidden;
+}
+.cross{
+    transform: translateY(-172px);
+    padding-left: 500px;
+
+}
+.text3{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.media{
+    transform: translate(630px);
+}
+icons li{
+    list-style: none;
+    margin: 5px 10px;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    border: none;
+}
+icons li:hover{
+    color: goldenrod;
+    transition: .5s;
+}
+.copyright{
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    margin: 9px;
+}
+.arrow1{
+    transform: translateX(-30px);
+    margin-top: -46px;
+}

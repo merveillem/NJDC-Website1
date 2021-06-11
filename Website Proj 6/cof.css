@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------Nav Bar---------*/
+nav{
+    width: 100%;
+    height: 80px;
+    background: #f3f3f3;
+    position: absolute;
+    font-weight: bold;
+    z-index: 100;
+    box-sizing: border-box;
+}
+nav .logo{
+    margin-top: -280px;
+    float: left;
+    transform: translateX(50px);
+    z-index: 10;
+}
+nav ul{
+    float: left;
+    transform: translateX(100px);
+    z-index: 10px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 2px 14px;
+}
+nav ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 26px 14px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color:  #283747;
+    padding: 10px;
+    transform: translateX(-10px);
+}
+nav ul li:hover ul{
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 2px;
+}
+nav ul li ul li {
+    width: 180px;
+}
+nav ul li ul li a {
+    padding: 8px 14px;
+    color: 
+}
+nav ul li ul li a:hover{
+    background-color: #f3f3f3;
+    transition: .4s;
+}
+.arrow1{
+    transform: translateX(-30px);
+    margin-top: -46px;
+}
+/*----COF----*/
+.confession{
+    width: 100%;
+    height: 1200px;
+    background:#f3f3f3;
+}
+.cross{
+    height: 719px;
+    background: url(/image/bible-1850859_960_720.jpg);
+    background-size: cover;
+}
+.hey{
+    transform: translateY(-440px);
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 70px;
+}
+.p1{
+    transform: translateY(-198px);
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+/*-----footer-----*/
+.footer{
+    width: 100%;
+    height: 150px;
+    background:#272626;
+    overflow: hidden;
+}
+.cross{
+    transform: translateY(-172px);
+    padding-left: 500px;
+
+}
+.text3{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.media{
+    transform: translate(630px);
+}
+icons li{
+    list-style: none;
+    margin: 5px 10px;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    border: none;
+}
+icons li:hover{
+    color: goldenrod;
+    transition: .5s;
+}
+.copyright{
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    margin: 9px;
+}
+
+
